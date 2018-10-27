@@ -1,0 +1,41 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #76b852;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.calculator-app {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 400px){
+    .calculator-app {
+        border: 1px solid white;
+        width: 95%;
+        margin: 20px;
+    }
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    
+}
